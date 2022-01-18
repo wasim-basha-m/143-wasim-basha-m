@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+    crossorigin="anonymous"></script>
+    <title>jqeury</title>
+    <script>
+        $(document).ready(function(){
+            //When heading is clicked , paragraph must hide
+            $('#b1').click(function(){
+             // alert('button clicked...');
+              $('#p1').hide();
+  
+            });
+  
+            $('#b2').click(function(){
+                $('#p1').show();
+            });
+
+            $('#b3').click(function(){
+                    $('#p2').hide();
+            });
+
+            $('#b4').click(function(){
+                $('#p2').show();
+            });
+        });
+     </script>
+      <title>Document</title>
+  </head>
+  <body>
+      <h1>Heading 1</h1>
+      <p id="p1">
+          This is a paragraph
+          This is a paragraph
+  
+      </p>
+      <p id="p2">
+        This is also a paragraph
+        This is also a paragraph
+
+    </p>
+      <button id='b1'>hide Paragraph 1</button>
+      <button id='b2'>show Paragraph 1</button>
+      <button id='b3'>hide Paragraph 2</button>
+      <button id='b4'>show Paragraph 2</button>
+
+  
+  
+      <script>
+          //jqeury code goes here
+      </script>
+  </body>
+  </html>
+  
