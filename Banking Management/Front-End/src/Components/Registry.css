@@ -1,0 +1,40 @@
+.registry {
+  background-image: "../src/Components/images/bg_image.jpeg";
+  background-color: darkgray;
+}
+
+.registry-field {
+  border: 6px solid black;
+  background-image: "./src/Components/images/bg_image.jpeg";
+  background-color: rgb(169, 193, 207);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  padding-left: 50ch;
+}
+
+.registry-statement {
+  border: 6px solid black;
+  background-image: "./src/Components/images/bg_image.jpeg";
+  background-color: rgb(169, 193, 207);
+  padding-bottom: 20px;
+  width: 100%;
+}
+.biller-Select {
+  background-color: white;
+  padding-left: 20px;
+}
+
+.cons-number {
+  background-color: blue;
+}
+
+.biller-registry-body {
+  background-image: "./images/bg_image.jpeg";
+  background-color: darkgray;
+  height: 100%;
+}
+
+.btn {
+  padding: 10px;
+}
